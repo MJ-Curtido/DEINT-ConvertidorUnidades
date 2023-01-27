@@ -49,7 +49,7 @@
                                      Size="50"/>
                 </Image.Source>
             </Image>
-            <Label Text="Información" Grid.Row="1"
+            <Label Text="INFORMACION" Grid.Row="1"
                    Grid.Column="0" HorizontalTextAlignment="Center"/>
         </Grid>
 
@@ -60,15 +60,19 @@
             RowDefinitions="7*, 3*"
             ColumnDefinitions="*">
 
+            <Grid.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+            </Grid.GestureRecognizers>
+            
             <Image Grid.Row="0"
                    Grid.Column="0">
                 <Image.Source>
                     <FontImageSource FontFamily="icons"
-                                     Glyph="&#xF0A0;"
+                                     Glyph="&#xF1B2;"
                                      Size="50"/>
                 </Image.Source>
             </Image>
-            <Label Text="Información" Grid.Row="1"
+            <Label Text="VOLUMEN" Grid.Row="1"
                    Grid.Column="0" HorizontalTextAlignment="Center"/>
         </Grid>
 
@@ -79,15 +83,19 @@
             RowDefinitions="7*, 3*"
             ColumnDefinitions="*">
 
+            <Grid.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+            </Grid.GestureRecognizers>
+
             <Image Grid.Row="0"
                    Grid.Column="0">
                 <Image.Source>
                     <FontImageSource FontFamily="icons"
-                                     Glyph="&#xF0A0;"
+                                     Glyph="&#xF044;"
                                      Size="50"/>
                 </Image.Source>
             </Image>
-            <Label Text="Información" Grid.Row="1"
+            <Label Text="ALTURA" Grid.Row="1"
                    Grid.Column="0" HorizontalTextAlignment="Center"/>
         </Grid>
 
@@ -98,15 +106,19 @@
             RowDefinitions="7*, 3*"
             ColumnDefinitions="*">
 
+            <Grid.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+            </Grid.GestureRecognizers>
+
             <Image Grid.Row="0"
                    Grid.Column="0">
                 <Image.Source>
                     <FontImageSource FontFamily="icons"
-                                     Glyph="&#xF0A0;"
+                                     Glyph="&#xF24E;"
                                      Size="50"/>
                 </Image.Source>
             </Image>
-            <Label Text="Información" Grid.Row="1"
+            <Label Text="MASA" Grid.Row="1"
                    Grid.Column="0" HorizontalTextAlignment="Center"/>
         </Grid>
 
@@ -118,15 +130,19 @@
             RowDefinitions="7*, 3*"
             ColumnDefinitions="*">
 
+            <Grid.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+            </Grid.GestureRecognizers>
+
             <Image Grid.Row="0"
                    Grid.Column="0">
                 <Image.Source>
                     <FontImageSource FontFamily="icons"
-                                     Glyph="&#xF0A0;"
+                                     Glyph="&#xE800;"
                                      Size="50"/>
                 </Image.Source>
             </Image>
-            <Label Text="Información" Grid.Row="1"
+            <Label Text="TEMPERATURA" Grid.Row="1"
                    Grid.Column="0" HorizontalTextAlignment="Center"/>
         </Grid>
 
@@ -137,15 +153,19 @@
             RowDefinitions="7*, 3*"
             ColumnDefinitions="*">
 
+            <Grid.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+            </Grid.GestureRecognizers>
+
             <Image Grid.Row="0"
                    Grid.Column="0">
                 <Image.Source>
                     <FontImageSource FontFamily="icons"
-                                     Glyph="&#xF0A0;"
+                                     Glyph="&#xF525;"
                                      Size="50"/>
                 </Image.Source>
             </Image>
-            <Label Text="Información" Grid.Row="1"
+            <Label Text="ENERGIA" Grid.Row="1"
                    Grid.Column="0" HorizontalTextAlignment="Center"/>
         </Grid>
 
@@ -156,15 +176,19 @@
             RowDefinitions="7*, 3*"
             ColumnDefinitions="*">
 
+            <Grid.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+            </Grid.GestureRecognizers>
+
             <Image Grid.Row="0"
                    Grid.Column="0">
                 <Image.Source>
                     <FontImageSource FontFamily="icons"
-                                     Glyph="&#xF0A0;"
+                                     Glyph="&#xF1FE;"
                                      Size="50"/>
                 </Image.Source>
             </Image>
-            <Label Text="Información" Grid.Row="1"
+            <Label Text="AREA" Grid.Row="1"
                    Grid.Column="0" HorizontalTextAlignment="Center"/>
         </Grid>
 
@@ -175,15 +199,19 @@
             RowDefinitions="7*, 3*"
             ColumnDefinitions="*">
 
+            <Grid.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+            </Grid.GestureRecognizers>
+
             <Image Grid.Row="0"
                    Grid.Column="0">
                 <Image.Source>
                     <FontImageSource FontFamily="icons"
-                                     Glyph="&#xF0A0;"
+                                     Glyph="&#xE82A;"
                                      Size="50"/>
                 </Image.Source>
             </Image>
-            <Label Text="Información" Grid.Row="1"
+            <Label Text="VELOCIDAD" Grid.Row="1"
                    Grid.Column="0" HorizontalTextAlignment="Center"/>
         </Grid>
 
@@ -194,15 +222,19 @@
             RowDefinitions="7*, 3*"
             ColumnDefinitions="*">
 
+            <Grid.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+            </Grid.GestureRecognizers>
+
             <Image Grid.Row="0"
                    Grid.Column="0">
                 <Image.Source>
                     <FontImageSource FontFamily="icons"
-                                     Glyph="&#xF0A0;"
+                                     Glyph="&#xE801;"
                                      Size="50"/>
                 </Image.Source>
             </Image>
-            <Label Text="Información" Grid.Row="1"
+            <Label Text="DURACION" Grid.Row="1"
                    Grid.Column="0" HorizontalTextAlignment="Center"/>
         </Grid>
     </Grid>

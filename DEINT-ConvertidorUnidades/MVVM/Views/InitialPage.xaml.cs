@@ -1,3 +1,5 @@
+using DEINT_ConvertidorUnidades.MVVM.ViewModels;
+
 namespace DEINT_ConvertidorUnidades.MVVM.Views;
 
 public partial class InitialPage : ContentPage
@@ -13,12 +15,11 @@ public partial class InitialPage : ContentPage
 
 		var option = ((Label)element.Children.LastOrDefault()).Text;
 
-		/*
 		var converterView = new ConverterPage
 		{
-			BindingContext = new ConverterViewModel(option);
-		}
-		Navigation.PushAdync(ConverterViewModel)
-		*/
+			BindingContext = new ConverterViewModel(option)
+		};
+
+		Navigation.PushAsync(converterView);
 	}
 }
